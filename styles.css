@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+.header-container {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    height: 470px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 15px;
+}
+
+.header-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.statement {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    max-width: 400px;
+}
+
+.header-subtext {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+.header-signup {
+    max-width: 105px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-weight: 600;
+    color: white;
+    border-width: 0;
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+}
+
+.header-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 460px;
+    background-color: rgb(160, 160, 160);
+}
+
+.header-logo {
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+}
+
+.random-info-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.inspirational-quote-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.bottom-signup-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+
+
+
+
